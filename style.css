@@ -10,14 +10,14 @@ body {
     background: url(images/bg.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
-    /* backdrop-filter: blur(1px); */
 }
 
 canvas {
     border: 2px solid red;
-    width: 61vw;
+    width: 60vw;
     height: 82vh;
     top: 30px;
     position: relative;
     left: 20px;
+    padding: 5px;
 }
