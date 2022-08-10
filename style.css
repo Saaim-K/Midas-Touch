@@ -33,13 +33,13 @@ img {
 
 canvas {
     border: 2px solid red;
-    width: 61vw;
-    height: 75vh;
-    top: 10px;
+    width: 830px;
+    height: 510px;
+    top: 13px;
     position: relative;
     left: 20px;
     padding: 5px;
-    /* background-color: beige; */
+    background-color:rgb(207, 215, 191) ;
 }
 
 #toolbar {
@@ -59,3 +59,5 @@ canvas {
     backdrop-filter: blur(4px);
     height: 40vh;
 }
+
+
