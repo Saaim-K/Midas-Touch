@@ -12,36 +12,34 @@ body {
     background: url(images/bg.jpg) no-repeat;
     height: 100vh;
     background-size: cover;
-    /* background-position: center; */
     background-attachment: fixed;
-    font-family: 'Great Vibes', cursive;
     color: gold;
 }
 
 h1 {
+    font-family: 'Great Vibes', cursive;
     position: absolute;
     top: 15px;
     font-size: 60px;
-
 }
 
 img {
-    height: 100px;
+    height: 90px;
     transform: rotateY(180deg);
     position: absolute;
     top: -10px;
-    right: 28%;
+    right: 31%;
 }
 
 canvas {
-    /* border: 2px solid red; */
-    width: 60vw;
-    height: 70vh;
-    top: 40px;
+    border: 2px solid red;
+    width: 61vw;
+    height: 75vh;
+    top: 10px;
     position: relative;
     left: 20px;
     padding: 5px;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 #toolbar {
