@@ -32,14 +32,12 @@ img {
 }
 
 canvas {
-    border: 2px solid red;
-    width: 830px;
+    width: 830px;   
     height: 510px;
     top: 13px;
     position: relative;
     left: 20px;
     padding: 5px;
-    background-color:rgb(207, 215, 191) ;
 }
 
 #toolbar {
