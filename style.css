@@ -33,7 +33,7 @@ img {
 
 canvas {
     border: 2px solid red;
-    width: 830px;   
+    width: 830px;
     height: 510px;
     top: 13px;
     position: relative;
@@ -48,6 +48,10 @@ canvas {
     /* background-color: gray; */
     backdrop-filter: blur(1px);
     height: 40vh;
+    width: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #sidebar {
@@ -60,16 +64,35 @@ canvas {
 }
 
 
-button{
+button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
-    background: linear-gradient(45deg, #ff216d, #2196f3);
+    background:linear-gradient(45deg, #ff216d, #2196f3);
     margin: 5px;
 }
-i{
+
+i {
     font-size: 20px;
     color: white;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background: transparent;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
 }
