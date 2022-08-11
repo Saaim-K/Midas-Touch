@@ -13,29 +13,30 @@
     <!-- ------------------------------ Animate.CSS ------------------------------ -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- ------------------------------ Animate.CSS ------------------------------ -->
+
+    <script src="https://kit.fontawesome.com/12642bc27d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    
+
     <h1 class="animate animate__animated animate__bounce">Midas Touch </h1><img src="images/1.gif" alt="">
     <canvas id="canvas"></canvas>
     <div id="toolbar">
-        <h1>toolbar</h1>
-        <button>Button</button>
-        <button>Button</button>
-        <button>Button</button>
-        <button>Button</button>
+        <button title="Paint Brush"><i class="fa-solid fa-paintbrush"></i></button>
+        <button title="Color Fill" onclick="colorFill()"><i class="fa fa-thin fa-fill-drip"></i></button><br>
+        <button title="Circle"><i class="fa fa-regular fa-circle"></i></button>
+        <button title="Square"><i class="fa fa-regular fa-square"></i></button><br>
+        <input id="fillColor" type="color" style="width: 100%; height:20%;">
     </div>
     <div id="sidebar">
         <h1>sidebar</h1>
-        <button>Button</button>
-        <button>Button</button>
-        <button>Button</button>
-        <button>Button</button>
+        <button><i class="fa fa-solid fa-paint-brush"></i></button>
+        <button><i class="fa fa-solid fa-paint-brush"></i></button>
+        <button><i class="fa fa-solid fa-paint-brush"></i></button>
     </div>
 
 
-    
 
 </body>
 <script src="app.js"></script>

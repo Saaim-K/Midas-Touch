@@ -46,7 +46,7 @@ canvas {
     position: absolute;
     left: 2%;
     /* background-color: gray; */
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(1px);
     height: 40vh;
 }
 
@@ -60,3 +60,16 @@ canvas {
 }
 
 
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff216d, #2196f3);
+    margin: 5px;
+}
+i{
+    font-size: 20px;
+    color: white;
+}

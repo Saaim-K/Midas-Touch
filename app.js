@@ -1,6 +1,7 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d'); //2D Drawing
 
+
 // --------------------Width & Height of Canvas--------------------
 // const width = canvas.width;    // Assigning the canvas width
 // const height = canvas.height; // Assigning the canvas width 
@@ -36,3 +37,31 @@ canvas.addEventListener("mousemove", (event) => {
 document.addEventListener("mouseup", (event) => {
     console.log(event);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function colorFill(){
+//     let filllColor=document.getElementById('fillColor').value;
+//     ctx.fillStyle = filllColor;
+//     ctx.fillRect(0,0,canvas.width,canvas.height);
+// }
