@@ -60,6 +60,29 @@ document.addEventListener("mouseup", (event) => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+let menuToggle = document.querySelector('.menuToggle');
+menuToggle.onclick = function () {
+    menuToggle.classList.toggle('active');
+}
+
+
+
+
+
+
+
+
 // function colorFill(){
 //     let filllColor=document.getElementById('fillColor').value;
 //     ctx.fillStyle = filllColor;
