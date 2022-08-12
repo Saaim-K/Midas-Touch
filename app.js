@@ -1,3 +1,5 @@
+//-------------------------------------------------- Canvas --------------------------------------------------
+
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d'); //2D Drawing
 
@@ -37,6 +39,7 @@ canvas.addEventListener("mousemove", (event) => {
 document.addEventListener("mouseup", (event) => {
     console.log(event);
 });
+//-------------------------------------------------- Canvas --------------------------------------------------
 
 
 
@@ -71,10 +74,13 @@ document.addEventListener("mouseup", (event) => {
 
 
 
+
+//-------------------------------------------------- Social Media --------------------------------------------------
 let menuToggle = document.querySelector('.menuToggle');
 menuToggle.onclick = function () {
     menuToggle.classList.toggle('active');
 }
+//-------------------------------------------------- Social Media --------------------------------------------------
 
 
 
